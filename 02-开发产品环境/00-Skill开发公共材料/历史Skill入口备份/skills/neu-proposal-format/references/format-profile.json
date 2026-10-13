@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "profile_name": "neu_proposal_public_document_v1",
+  "page": {
+    "paper": "A4",
+    "orientation": "portrait",
+    "width_mm": 210,
+    "height_mm": 297,
+    "margin_top_mm": 39,
+    "margin_bottom_mm": 33,
+    "margin_left_mm": 27,
+    "margin_right_mm": 27,
+    "footer_distance_mm": 20,
+    "source": {
+      "paper": "sample_default",
+      "orientation": "sample_default",
+      "margins": "explicit",
+      "footer_distance": "explicit"
+    }
+  },
+  "fonts": {
+    "western": "Times New Roman",
+    "required": [
+      {
+        "name": "方正小标宋_GBK",
+        "aliases": ["方正小标宋_GBK", "FZXiaoBiaoSong-B05", "FZXiaoBiaoSong-B05S"]
+      },
+      {
+        "name": "方正黑体_GBK",
+        "aliases": ["方正黑体_GBK", "FZHei-B01", "FZHei-B01S"]
+      },
+      {
+        "name": "方正楷体_GBK",
+        "aliases": ["方正楷体_GBK", "FZKai-Z03", "FZKai-Z03S"]
+      },
+      {
+        "name": "方正仿宋_GBK",
+        "aliases": ["方正仿宋_GBK", "FZFangSong-Z02", "FZFangSong-Z02S"]
+      },
+      {
+        "name": "Times New Roman",
+        "aliases": ["Times New Roman"]
+      }
+    ]
+  },
+  "styles": {
+    "title": {
+      "word_style": "ProposalTitle",
+      "font_east_asia": "方正小标宋_GBK",
+      "font_western": "Times New Roman",
+      "size_pt": 21,
+      "line_spacing_pt": 35,
+      "alignment": "center",
+      "first_line_indent_pt": 0,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "bold": false,
+      "source": "explicit"
+    },
+    "heading1": {
+      "word_style": "ProposalHeading1",
+      "font_east_asia": "方正黑体_GBK",
+      "font_western": "Times New Roman",
+      "size_pt": 17,
+      "line_spacing_pt": 28.95,
+      "alignment": "left",
+      "first_line_indent_pt": 0,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "bold": false,
+      "outline_level": 0,
+      "source": "explicit_and_sample_default"
+    },
+    "heading2": {
+      "word_style": "ProposalHeading2",
+      "font_east_asia": "方正楷体_GBK",
+      "font_western": "Times New Roman",
+      "size_pt": 17,
+      "line_spacing_pt": 28.95,
+      "alignment": "left",
+      "first_line_indent_pt": 0,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "bold": false,
+      "outline_level": 1,
+      "source": "explicit_and_sample_default"
+    },
+    "heading3": {
+      "word_style": "ProposalHeading3",
+      "font_east_asia": "方正仿宋_GBK",
+      "font_western": "Times New Roman",
+      "size_pt": 17,
+      "line_spacing_pt": 28.95,
+      "alignment": "justify",
+      "first_line_indent_pt": 34,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "bold": false,
+      "source": "explicit_and_sample_default"
+    },
+    "body": {
+      "word_style": "ProposalBody",
+      "font_east_asia": "方正仿宋_GBK",
+      "font_western": "Times New Roman",
+      "size_pt": 17,
+      "line_spacing_pt": 28.95,
+      "alignment": "justify",
+      "first_line_indent_pt": 34,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "bold": false,
+      "source": "explicit_and_sample_default"
+    },
+    "signature": {
+      "word_style": "ProposalSignature",
+      "font_east_asia": "方正仿宋_GBK",
+      "font_western": "Times New Roman",
+      "size_pt": 17,
+      "line_spacing_pt": 28.95,
+      "alignment": "right",
+      "first_line_indent_pt": 0,
+      "space_before_pt": 0,
+      "space_after_pt": 0,
+      "bold": false,
+      "source": "sample_default"
+    }
+  },
+  "page_number": {
+    "font": "Times New Roman",
+    "size_pt": 12,
+    "alignment": "center",
+    "left_mark": "— ",
+    "right_mark": " —",
+    "start": 1,
+    "source": "explicit_and_sample_default"
+  }
+}
